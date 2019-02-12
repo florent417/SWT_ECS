@@ -17,12 +17,14 @@ namespace ECS.Tests
 
             Assert.That(uut.RunSelfTest,Is.EqualTo(true));
         }
-        /*
-        [Test]
-        public void TurnOn_ReturnsTrue()
+        
+        [TestCase(28)]
+        [TestCase(-12)]
+        public void GetThreshold_Test(int thr)
         {
-            var uut = new 
+            var uut = new TestECS(thr, new TestTempSensor(), new TestHeater());
+
+            Assert.That(uut.GetThreshold(), Is.EqualTo(thr));
         }
-        */
     }
 }
