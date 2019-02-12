@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="ECS.Legacy.ECS">
+  <Class Name="ECS.ECS">
     <Position X="1" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAABAAAAAAAAAIAAAAAAAACBAAAAAAAgCAAAAIAA=</HashCode>
       <FileName>ECS.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ECS.Legacy.Heater">
+  <Class Name="ECS.Heater">
     <Position X="6.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA=</HashCode>
       <FileName>Heater.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ECS.Legacy.TempSensor">
+  <Class Name="ECS.TempSensor">
     <Position X="6.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAACAAAAAQAAAAABAAAAAAAAAAAAAAAA=</HashCode>
