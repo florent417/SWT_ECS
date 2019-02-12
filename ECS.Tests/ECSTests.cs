@@ -26,5 +26,14 @@ namespace ECS.Tests
 
             Assert.That(uut.GetThreshold(), Is.EqualTo(thr));
         }
+
+        [TestCase(28)]
+        [TestCase(-12)]
+        public void SetThreshold_Test(int thr)
+        {
+            var uut = new TestECS(35, new TestTempSensor(), new TestHeater());
+            uut.SetThreshold(thr);
+            Assert.That(uut.GetThreshold(), Is.EqualTo(thr));
+        }
     }
 }
