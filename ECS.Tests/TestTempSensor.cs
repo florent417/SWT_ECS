@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ECS
 {
-    class TestTempSensor
+    class TestTempSensor : ITempSensor
     {
         private Random gen = new Random();
 

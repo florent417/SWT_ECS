@@ -6,16 +6,19 @@ using System.Threading.Tasks;
 
 namespace ECS
 {
-    class TestHeater : Heater
+    class TestHeater : IHeater
     {
+        //private bool heaterOn = false;
         public void TurnOn()
         {
             System.Console.WriteLine("Test Heater is on");
+            //heaterOn = true;
         }
 
         public void TurnOff()
         {
             System.Console.WriteLine("Test Heater is off");
+            //heaterOn = false;
         }
 
         public bool RunSelfTest()

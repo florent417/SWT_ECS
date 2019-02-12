@@ -1,0 +1,7 @@
+C:\Users\flole\Source\Repos\florent417\SWT_ECS\ECS\bin\Debug\ECS.exe.config
+C:\Users\flole\Source\Repos\florent417\SWT_ECS\ECS\bin\Debug\ECS.exe
+C:\Users\flole\Source\Repos\florent417\SWT_ECS\ECS\bin\Debug\ECS.pdb
+C:\Users\flole\Source\Repos\florent417\SWT_ECS\ECS\obj\Debug\ECS.csprojAssemblyReference.cache
+C:\Users\flole\Source\Repos\florent417\SWT_ECS\ECS\obj\Debug\ECS.csproj.CoreCompileInputs.cache
+C:\Users\flole\Source\Repos\florent417\SWT_ECS\ECS\obj\Debug\ECS.exe
+C:\Users\flole\Source\Repos\florent417\SWT_ECS\ECS\obj\Debug\ECS.pdb
