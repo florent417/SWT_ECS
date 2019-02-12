@@ -13,6 +13,7 @@
       <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA=</HashCode>
       <FileName>Heater.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="ECS.TempSensor">
     <Position X="6.5" Y="2.5" Width="1.5" />
@@ -20,6 +21,7 @@
       <HashCode>AAAAAAAAAAAAAACAAAAAQAAAAABAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TempSensor.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
