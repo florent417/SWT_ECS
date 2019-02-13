@@ -13,7 +13,7 @@ namespace ECS.Tests
         [Test]
         public void RunSelfTest_HeaterAndTempSensor_ReturnsTrue()
         {
-            var uut = new TestECS(28, new TestTempSensor(), new TestHeater());
+            var uut = new ECS(28, new TestTempSensor(), new TestHeater());
 
             Assert.That(uut.RunSelfTest,Is.EqualTo(true));
         }
@@ -22,7 +22,7 @@ namespace ECS.Tests
         [TestCase(-12)]
         public void GetThreshold_Test(int thr)
         {
-            var uut = new TestECS(thr, new TestTempSensor(), new TestHeater());
+            var uut = new ECS(thr, new TestTempSensor(), new TestHeater());
 
             Assert.That(uut.GetThreshold(), Is.EqualTo(thr));
         }
@@ -31,9 +31,11 @@ namespace ECS.Tests
         [TestCase(-12)]
         public void SetThreshold_Test(int thr)
         {
-            var uut = new TestECS(35, new TestTempSensor(), new TestHeater());
+            var uut = new ECS(35, new TestTempSensor(), new TestHeater());
             uut.SetThreshold(thr);
             Assert.That(uut.GetThreshold(), Is.EqualTo(thr));
         }
+
+
     }
 }
